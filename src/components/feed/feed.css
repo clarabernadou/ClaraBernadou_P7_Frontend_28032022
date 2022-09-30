@@ -1,0 +1,26 @@
+.feedWrapper{
+    margin: 2em 15em;
+}
+
+.posts {
+    display: flex;
+    flex-direction: column;
+}
+/* ################ MEDIA QUERY MOBILE ################ */
+@media screen and (min-width: 320px) and (max-width:767px) {
+    .feedWrapper {
+        margin: 1em 1em;
+    }
+}
+/* ################ MEDIA QUERY TABLET ################ */
+@media screen and (min-width:768px) and (max-width: 1440px) {
+    .feedWrapper {
+        margin: 2em 7em;
+    }
+}
+/* ################ MEDIA QUERY TV/4K ################ */
+@media screen and (max-width:2560px) and (min-width: 1441px){
+    .feedWrapper {
+        margin: 2em 35em;
+    }
+}

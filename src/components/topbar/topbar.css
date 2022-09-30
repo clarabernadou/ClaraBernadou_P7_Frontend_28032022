@@ -1,0 +1,58 @@
+.topbarContainer {
+  height: 7em;
+  width: 100%;
+  background-color: midnightblue;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+.topbarLeft {
+  margin-left: 2em;
+}
+
+.logo {
+  width: 13em;
+  color: white;
+  cursor: pointer;
+}
+
+.topbarRight {
+  margin-right: 2em;
+}
+
+.topbarImg {
+  width: 3em;
+  height: 3em;
+  border-radius: 50%;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+/* ################ MEDIA QUERY MOBILE ################ */
+@media screen and (min-width: 320px) and (max-width:767px) {
+  .topbarContainer {
+    height: 4em;
+  }
+
+  .topbarLeft {
+    margin-left: 1em;
+  }
+
+  .topbarRight{
+    margin-right: 1em;
+  }
+
+  .topbarImg {
+    width: 2em;
+    height: 2em;
+  }
+
+  .logo {
+    font-size: 10px;
+  }
+
+}

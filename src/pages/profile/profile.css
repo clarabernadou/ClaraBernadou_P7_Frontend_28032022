@@ -1,0 +1,132 @@
+.profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.profileTop{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2em;
+  -webkit-box-shadow: 0px 0px 16px -8px rgb(0 0 0 / 68%);
+  box-shadow: 0px 0px 16px -8px rgb(0 0 0 / 68%);
+  padding: 0em 1em;
+  border-radius: 10px;
+  margin-bottom: 1.5em;
+}
+
+.btnProfileImg{
+  display: none;
+}
+
+.profileUserImg {
+  width: 7em;
+  height: 7em;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.registerBox{
+    height: 12em;
+    width: 17em;
+    background-color: white;
+    border-radius: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .loginInput{
+    height: 2.5em;
+    border-radius: 2em;
+    border: none;
+    background-color: lightgray;
+    font-size: 0.8em;
+    padding-left: 1em;
+    margin-bottom: 0.5em;
+    text-align: center;
+  }
+  
+  .loginInput:focus
+  .loginInputName:focus{
+      outline: none;
+  }
+  
+  .loginInputName{
+    height: 2.5em;
+    width: 44%;
+    border-radius: 2em;
+    border: none;
+    background-color: lightgray;
+    font-size: 0.8em;
+    padding-left: 1em;
+    margin-bottom: 0.5em;
+    text-align: center;
+  }
+  
+  .registerName{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .BtnAlignItems{
+    display: flex;
+    justify-content: center;
+  }
+  
+  .loginButton{
+    border: none;
+    padding: 1em;
+    border-radius: 2em;
+    background-color: midnightblue;
+    font-weight: 500;
+    width: 11em;
+    cursor: pointer;
+    color: white;
+    transition-property: background-color;
+    transition-duration: 1s;
+    transition-timing-function: ease-out;
+  }
+
+  .loginButton:hover{
+    background-color: #254BAD;
+  }
+
+  .loginButtonRed{
+    border: none;
+    padding: 1em;
+    border-radius: 2em;
+    background-color: #BB1313;
+    font-weight: 500;
+    width: 11em;
+    cursor: pointer;
+    color: white;
+    transition-property: background-color;
+    transition-duration: 1s;
+    transition-timing-function: ease-out;
+    margin-bottom: 0.5em;
+  }
+
+  .loginButtonRed:hover{
+    background-color: #E21B1B;
+  }
+
+.loginButtonRed:hover, 
+.loginButton:hover{
+  text-decoration: underline;
+}
+
+.profileBottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profileButton{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

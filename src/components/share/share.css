@@ -1,0 +1,95 @@
+
+.share {
+    width: 100%;
+    border-radius: 1em;
+    -webkit-box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+    box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+  }
+
+  .shareWrapper {
+    padding: 1em;
+  }
+
+  .shareTop {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5em;
+  }
+
+  .shareProfileImg {
+    width: 2.5em;
+    height: 2.5em;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 0.7em;
+  }
+
+  .shareInfosContainer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .shareProfileName {
+    margin-right: 0.3em;
+    font-weight: bold;
+  }
+
+  .shareProfilePosition {
+    font-size: 0.8em;
+  }
+
+  .postInput {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0.5em;
+  }
+
+  .shareInput {
+    border: none;
+    background-color: lightgrey;
+    width: 100%;
+    padding: 1em;
+    border-radius: 0.7em;
+  }
+
+  .shareInput:focus {
+    outline: none;
+  }
+
+  .postButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.3em;
+  }
+
+  .mediasOption{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  .shareOptionText{
+      font-size: 14px;
+      font-weight: 500;
+  }
+
+  .shareButton{
+    border: none;
+    padding: 1em;
+    border-radius: 2em;
+    background-color: midnightblue;
+    font-weight: 500;
+    width: 11em;
+    cursor: pointer;
+    color: white;
+    transition-property: background-color;
+    transition-duration: 1s;
+    transition-timing-function: ease-out;
+  }
+
+  .shareButton:hover{
+    background-color: #254BAD;
+    text-decoration: underline;
+  }
