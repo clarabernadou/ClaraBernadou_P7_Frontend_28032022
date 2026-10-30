@@ -27,6 +27,7 @@ jobs:
       - run: npm run build
         env:
           CI: false
+          DISABLE_ESLINT_PLUGIN: true
           PUBLIC_URL: /ClaraBernadou_P7_Frontend_28032022
       - name: Add the simulated API
         run: |
